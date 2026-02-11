@@ -64,8 +64,8 @@ export const translations: Translations = {
 
   // Footer
   'footer.copyright': {
-    bg: '© 2024 Garrison. Всички права запазени.',
-    en: '© 2024 Garrison. All rights reserved.',
+    bg: '© 2026 Garrison. Всички права запазени.',
+    en: '© 2026 Garrison. All rights reserved.',
   },
 
   // Accessibility
