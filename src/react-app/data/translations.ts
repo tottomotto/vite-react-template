@@ -44,9 +44,9 @@ export const translations: Translations = {
   },
 
   // About
-  'about.title': { bg: 'За Garrison', en: 'About Garrison' },
+  'about.title': { bg: 'За Гарисън', en: 'About Garrison' },
   'about.description': {
-    bg: 'Garrison е водеща частна линейка в София, предоставяща професионални спешни медицински услуги. Нашият екип от квалифицирани медицински специалисти е на разположение 24/7.',
+    bg: 'Гарисън е водеща частна линейка в София, предоставяща професионални спешни медицински услуги. Нашият екип от квалифицирани медицински специалисти е на разположение 24/7.',
     en: 'Garrison is a leading private ambulance service in Sofia, providing professional emergency medical services. Our team of qualified medical professionals is available 24/7.',
   },
 
@@ -64,21 +64,21 @@ export const translations: Translations = {
 
   // Footer
   'footer.copyright': {
-    bg: '© 2026 Garrison. Всички права запазени.',
+    bg: '© 2026 Гарисън. Всички права запазени.',
     en: '© 2026 Garrison. All rights reserved.',
   },
 
   // Accessibility
   'a11y.callGarrison': {
-    bg: 'Обадете се на Garrison Линейка',
+    bg: 'Обадете се на Гарисън Линейка',
     en: 'Call Garrison Ambulance',
   },
   'a11y.openWhatsApp': {
-    bg: 'Отворете WhatsApp чат с Garrison',
+    bg: 'Отворете WhatsApp чат с Гарисън',
     en: 'Open WhatsApp chat with Garrison',
   },
   'a11y.openViber': {
-    bg: 'Отворете Viber чат с Garrison',
+    bg: 'Отворете Viber чат с Гарисън',
     en: 'Open Viber chat with Garrison',
   },
   'a11y.skipToContent': {
@@ -92,11 +92,11 @@ export const translations: Translations = {
 
   // SEO
   'seo.title': {
-    bg: 'Garrison | Частна линейка София | Спешна помощ 24/7',
+    bg: 'Гарисън | Частна линейка София | Спешна помощ 24/7',
     en: 'Garrison | Private Ambulance Sofia | Emergency Services 24/7',
   },
   'seo.description': {
-    bg: 'Garrison - водеща частна линейка в София. Денонощна спешна медицинска помощ, медицински транспорт. Обадете се: +359 879 923 096 / +359 879 855 035',
+    bg: 'Гарисън - водеща частна линейка в София. Денонощна спешна медицинска помощ, медицински транспорт. Обадете се: +359 879 923 096 / +359 879 855 035',
     en: 'Garrison - leading private ambulance in Sofia, Bulgaria. 24/7 emergency medical services, patient transport. Call: +359 879 923 096 / +359 879 855 035',
   },
 };
