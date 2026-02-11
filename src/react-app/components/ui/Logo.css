@@ -1,0 +1,16 @@
+.logo {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo__svg {
+  height: 36px;
+  width: auto;
+}
+
+@media (min-width: 768px) {
+  .logo__svg {
+    height: 40px;
+  }
+}

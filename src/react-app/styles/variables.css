@@ -1,0 +1,46 @@
+:root {
+  /* Colors - Emergency Service Palette */
+  --color-white: #FFFFFF;
+  --color-off-white: #F8F9FA;
+  --color-red-primary: #C8102E;
+  --color-red-dark: #A00D24;
+  --color-blue-primary: #003087;
+  --color-blue-dark: #00206B;
+  --color-text: #1A1A1A;
+  --color-text-muted: #6B7280;
+  --color-whatsapp: #25D366;
+  --color-viber: #7360F2;
+
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+
+  /* Typography */
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.5rem;
+  --font-size-2xl: 2rem;
+  --font-size-3xl: 2.5rem;
+
+  /* Touch targets */
+  --touch-target-min: 44px;
+
+  /* Header */
+  --header-height-mobile: 60px;
+  --header-height-desktop: 70px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+}

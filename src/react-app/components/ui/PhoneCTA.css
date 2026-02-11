@@ -1,0 +1,86 @@
+@keyframes pulse-ring {
+  0% {
+    box-shadow: 0 0 0 0 rgba(200, 16, 46, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(200, 16, 46, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(200, 16, 46, 0);
+  }
+}
+
+.phone-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-sm);
+  background-color: var(--color-red-primary);
+  color: var(--color-white);
+  text-decoration: none;
+  font-family: var(--font-family);
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  transition: background-color var(--transition-fast);
+  animation: pulse-ring 2s ease-out infinite;
+}
+
+.phone-cta:hover,
+.phone-cta:focus-visible {
+  background-color: var(--color-red-dark);
+  animation: none;
+}
+
+.phone-cta:focus-visible {
+  outline: 3px solid var(--color-blue-primary);
+  outline-offset: 2px;
+}
+
+/* Large variant — Hero CTA */
+.phone-cta--large {
+  width: min(100%, 80vw);
+  min-height: var(--touch-target-min);
+  padding: var(--space-md) var(--space-xl);
+  font-size: var(--font-size-xl);
+  border-radius: 8px;
+  box-shadow: var(--shadow-md);
+}
+
+@media (min-width: 768px) {
+  .phone-cta--large {
+    width: auto;
+    min-width: 320px;
+  }
+}
+
+/* Small variant — Header CTA */
+.phone-cta--small {
+  min-height: var(--touch-target-min);
+  min-width: var(--touch-target-min);
+  padding: var(--space-sm) var(--space-md);
+  font-size: var(--font-size-sm);
+  border-radius: 6px;
+}
+
+/* Hide phone number text on mobile, show only icon */
+.phone-cta__label-small {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .phone-cta__label-small {
+    display: inline;
+  }
+}
+
+.phone-cta__icon {
+  display: inline-flex;
+  flex-shrink: 0;
+}
+
+.phone-cta__icon svg {
+  width: 1.2em;
+  height: 1.2em;
+  fill: currentColor;
+}

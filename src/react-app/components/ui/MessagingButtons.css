@@ -1,0 +1,48 @@
+.messaging-buttons {
+  display: flex;
+  gap: var(--space-md);
+  align-items: center;
+}
+
+.messaging-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-sm);
+  min-height: var(--touch-target-min);
+  min-width: var(--touch-target-min);
+  padding: var(--space-sm) var(--space-md);
+  border-radius: 8px;
+  text-decoration: none;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  cursor: pointer;
+  transition: opacity var(--transition-fast);
+}
+
+.messaging-btn:hover,
+.messaging-btn:focus-visible {
+  opacity: 0.85;
+}
+
+.messaging-btn:focus-visible {
+  outline: 3px solid var(--color-blue-primary);
+  outline-offset: 2px;
+}
+
+.messaging-btn svg {
+  width: 1.4em;
+  height: 1.4em;
+  fill: currentColor;
+  flex-shrink: 0;
+}
+
+.messaging-btn--whatsapp {
+  background-color: var(--color-whatsapp);
+}
+
+.messaging-btn--viber {
+  background-color: var(--color-viber);
+}
